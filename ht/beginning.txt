@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>HELLO INDIA...
+        </title>
+</head>
+<body>
+    
+   <h>THIS IS WEBSITE OF RENOUND COLLEGE ABES...</h>
+   <h>You are going to know about <mark>ABES</mark></h> 
+   <p>
+    ABES Engineering College is approved by AICTE and accredited by NBA and with A Grade by NAAC. The college is affiliated with the Dr APJ Abdul Kalam Technical University (AKTU), Lucknow. ABES Engineering College, through various departments, offers PG and UG courses to students. These courses are provided across the Management, Computer Application, and various other streams. ABES Engineering College is visited by top recruiters for placements such as Amazon, Adobe, Wipro, and others. ABES Engineering College has experienced faculty members. ABES Engineering College faculty motivates students to work on their knowledge and skills.
+
+ABES Engineering College is ISO certified. Located in Ghaziabad, this reputed college was established in 2000 and has over 5,000 students. ABESEC offers BTech and MCA as flagship courses. ABES Engineering College has a state-of-the-art infrastructure with multiple facilities available for students. The major highlights of ABES Engineering College Ghaziabad are tabulated below:
+
+Particulars
+
+ABES Engineering College Highlights 2024
+
+Establishment year | Ownership type
+
+2000 | Private College
+
+Also known as
+
+ABES
+
+Top accreditations
+
+NBA and with A Grade by NAAC
+
+Recognised by
+
+AICTE
+
+Flagship courses
+
+BTech and MCA
+
+Official website
+
+https://abes.ac.in/
+
+Shiksha Rating (Overall)	
+4/5
+
+
+
+
+
+
+
+
+   </p>
+
+
+<img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"/>
+</body>
+</html>22:58 15-09-2024
+
+
+
+
+
+
+

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        /* Basic reset for margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        /* Styling the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        /* Styling the form container */
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+    
+        /* Styling the form heading */
+        form h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+    
+        /* Styling labels and inputs */
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-size: 14px;
+        }
+    
+        input[type="text"],
+        input[type="tel"],
+        input[type="password"],
+        input[type="email"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+    
+        /* Styling the select dropdown */
+        select {
+            background-color: #fff;
+            cursor: pointer;
+        }
+    
+        /* Styling radio buttons */
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+    
+        /* Styling the radio button labels */
+        input[type="radio"] + label {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333;
+            font-size: 14px;
+        }
+    
+        /* Adding some space to the subscription section */
+        div p {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+    
+        /* Styling the submit button (if you want to add one) */
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+    <form>
+        <h1><b>FORM MAKING</b></h1>
+        <div>
+            <label for="ph">phone</label>
+            <input id="ph" type="tel" placeholder="entre phone nuber" required>
+        </div>
+        <div>
+            <label for="name">name</label>
+            <input id="name" type="text" placeholder="entre name" required>
+        </div>
+        <div>
+            <label for="pss">password</label>
+            <input id="pss" type="password" placeholder="entre pasword" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input id="email" type="email" placeholder="entre email" required>
+        </div>
+        <div>
+            <label for="DOB">DOB</label>
+            <input id="DOB" type="DATE" placeholder="entre DOB" required>
+        </div>
+        <div>
+            <label for="gender">gender</label><label for=""></label>
+            <select id="gender" required>
+                <option value=" " disabled>select gender</option>
+                <option value="male" >male</option>
+                <option value="female "   > female</option>
+                <option value=" other"  >other </option>
+            </select>
+        </div>
+        <div>
+            <p>SUBSCRIPTION PLAN::</p>
+            <input id="basic" type="radio"  NAME="subscription" value="basic">
+            <label for="basic"></label>BASIC</label>
+            <input id="PREMIUM" type="radio" NAME="subscription" value="PREMIUM">
+            <label for="PREMIUM"></label>PREMIUM</label>
+        
+            <input id="VIP" type="radio" NAME="subscription" value="VIP">
+            <label for="VIP"></label>VIP</label>
+            <input id="USUAL" type="radio" NAME="subscription" value="USUAL">
+            <label for="USUAL">USUAL</label>
+            
+            
+        </div>
+
+    </form>
+</body>
+
+</html>
